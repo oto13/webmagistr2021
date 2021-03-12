@@ -1,0 +1,54 @@
+body{
+   font-size: 16px;
+   background-color: aqua;
+}
+
+// div{
+//    width: 700px;
+//    min-height: 200px;
+//    border: solid 3px red;
+//    margin: auto;
+//    margin-bottom: 20px;
+// }
+
+.div1{
+   min-height:300px;
+   width: 1100px;
+   border: solid 5px red;
+   margin: auto;
+   background-color: beige;
+
+   .header{
+      font-size: 27px;
+      text-align: center;
+      font-weight: bold;
+      font-style: italic;
+      text-decoration:underline;  
+   }
+
+   .menu{
+      background-color: azure;
+      ul{
+         li{
+            margin-top: 20px;
+            font-size: 20px;
+            color: blueviolet;
+            font-weight: bold;
+            font-style: italic;
+         }
+      }
+   }
+
+   .img{
+      margin-top: 180px;
+      margin-bottom: 30px;
+      background-color: cadetblue;
+      padding: 30px 0px;
+
+      img{
+         height: 200px;
+         margin: 0px 8px;
+      }
+   }
+}
+
